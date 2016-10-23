@@ -1,4 +1,17 @@
 .avatar {
 	border-radius: 40px;
-	margin: auto;
+	height: 95%;
+	margin-top: 5%;
+}
+
+.card.mdl-card {
+	margin: 10px;
+}
+
+.github {
+	padding-top: 32px;
+	padding-left: 40px;
+	background-image: url("../img/GitHub-Mark-32px.png");
+	background-repeat: no-repeat;
+	background-position: left bottom;
 }

@@ -7,62 +7,75 @@
 		<meta name="description" content="">
 		<meta name="author" content="Ricardo Andrade">
 
-		<!--<meta name="viewport" content="width=device-width; initial-scale=1.0">-->
+		<meta name="viewport" content="width=device-width; initial-scale=1.0"><!--Aprender mais sobre-->
 
 		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">-->
+		<link rel="stylesheet" href="css/material.css" />
+		<script src="js/material.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="css/estilos.css" />
 	</head>
 
 	<body>
-		<header>
-			<img src="https://s.gravatar.com/avatar/f9c4725b4f6b3b7e9e12b611b5290e2c?s=80" alt="Minha foto" />
-			<h1>Ricardo Andrade</h1>
-			<nav>
-				<ul>
-					<li>Sobre min</li>
-					<li>Competencias</li>
-					<li>Contato</li>
-				</ul>				
-			</nav>
-		</header>
-		
-		<section>
-			<h2>Sobre min</h2>
-			<p>
-				Ricardo de Andrade Maia<br>
-				Campina Grande/Paraíba – Brasi<br>
-				Estuda Ciência da Computação na Universidade Federal de Campina Grande.<br>
-				2016 - atualmente<br>
-				<a href="http://www.computacao.ufcg.edu.br">http://www.computacao.ufcg.edu.br</a>
-			</p>
-		</section>
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+				<header class="mdl-layout__header">
+					<div class="mdl-layout__header-row">
+						<h1>Ricardo Andrade</h1>
+						<div class="mdl-layout-spacer"></div>
+						<img src="https://s.gravatar.com/avatar/f9c4725b4f6b3b7e9e12b611b5290e2c?s=80" alt="Minha foto" class="avatar"/>
+					</div>
+					<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+						<a class="mdl-layout__tab is-active" href="#scroll-tab-1">Sobre min</a>
+						<a class="mdl-layout__tab" href="#scroll-tab-2">Competencias</a>
+						<a class="mdl-layout__tab" href="#scroll-tab-3">Contato</a>				
+					</div>
+				</header>
+			<main class="mdl-layout__content">
+				<section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+					<div class="page-content">
+						<h2>Sobre min</h2>
+						<p>
+							Ricardo de Andrade Maia<br>
+							Campina Grande/Paraíba – Brasi<br>
+							Estuda Ciência da Computação na Universidade Federal de Campina Grande.<br>
+							2016 - atualmente<br>
+							<a href="http://www.computacao.ufcg.edu.br">http://www.computacao.ufcg.edu.br</a>
+						</p>
+					</div>
+				</section>
+				
+				<section class="mdl-layout__tab-panel" id="scroll-tab-2">
+					<div class="page-content">
+						<h2>Competências</h2>
+						<ul>
+							<li>Desenvolvimento Java – intermediário</li>
+								<ul>
+									<li>Desenvolvimento Android – básico</li>
+									<li>JavaFX - básico</li>
+								</ul>
+							<li>Desenvolvimento front-end(html/css/JavaScript,php) – intermediário</li>
+							<li>Desenvolvimento em python – intermediário</li>
+							<li>Programação em C - básico</li>
+						</ul>
 			
-		<section>
-			<h2>Competências</h2>
-			<ul>
-				<li>Desenvolvimento Java – intermediário</li>
-				<ul>
-					<li>Desenvolvimento Android – básico</li>
-					<li>JavaFX - básico</li>
-				</ul>
-				<li>Desenvolvimento front-end(html/css/JavaScript,php) – intermediário</li>
-				<li>Desenvolvimento em python – intermediário</li>
-				<li>Programação em C - básico</li>
-			</ul>
-			
-			<h3>Portfólio</h3>
-			<p><a href="https://github.com/RicardoAndradeM">My GitHub profile</a></p>
-		</section>
-		
-		<section>
-			<h2>Contato</h2>
-			<p>Email: ricardo.maia@ccc.ufcg.edu.br</p>
-		</section>
-		
-		<footer>
-			<p>Copyright &copy; 2016 Ricardo Andrade. All Rights Reserved.</p>
-		</footer>
-		
+					<h3>Portfólio</h3>
+					<p><a href="https://github.com/RicardoAndradeM">My GitHub profile</a></p>
+					</div>
+				</section>
+				
+				<section class="mdl-layout__tab-panel" id="scroll-tab-3">
+					<div class="page-content">
+						<h2>Contato</h2>
+						<p>Email: ricardo.maia@ccc.ufcg.edu.br</p>
+					</div>
+				</section>
+				
+				<footer class="mdl-mini-footer rodape">
+					<p>Copyright &copy; 2016 Ricardo Andrade. All Rights Reserved.</p>
+				</footer>
+			</main>
+		</div>
 	</body>
 </html>

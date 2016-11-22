@@ -1,7 +1,7 @@
 .avatar {
 	border-radius: 40px;
-	height: 95%;
-	margin-top: 5%;
+	display: block;
+	margin: 0px auto;
 }
 
 .card.mdl-card {
@@ -14,4 +14,8 @@
 	background-image: url("../img/GitHub-Mark-32px.png");
 	background-repeat: no-repeat;
 	background-position: left bottom;
+}
+.nome{
+	text-decoration: underline;
+	text-align: center;
 }

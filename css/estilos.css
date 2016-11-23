@@ -8,14 +8,16 @@
 	margin: 10px;
 }
 
-.github {
-	padding-top: 32px;
-	padding-left: 40px;
-	background-image: url("../img/GitHub-Mark-32px.png");
-	background-repeat: no-repeat;
-	background-position: left bottom;
-}
-.nome{
+.nome {
 	text-decoration: underline;
 	text-align: center;
+}
+
+.github {
+	height: 320px;
+}
+
+.github > .mdl-card__title{
+	color: #fff;
+	background: url('../img/GitHub-Mark-120px-plus.png') bottom right 15% no-repeat #46B6AC;
 }
